@@ -9,14 +9,78 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">CARTA</a></li>
-                <li><a href="#">CAFÉ</a></li>
-            </ul>
-        </nav>
+    <header class="tracking-widest border-b border-gray-300/50">
+        <div class="py-1 pl-10 pr-35 flex items-center justify-between font-bold">
+
+            <div class=" text-sm flex items-center space-x-10  ">
+
+                <a class="hover:grayscale hover:scale-110 transition-transform duration-300" href=""><img
+                        class="object-cover w-36" src="/assets/Starbucks-Logo.png" alt=""></a>
+
+                <nav>
+                    <ul class="flex space-x-10  items-center">
+                        <li class="hover:text-emerald-800"><a class="block py-10 " href="#">CARTA</a>
+                        </li>
+                        <li class="hover:text-emerald-800"><a class="block py-10" href="#">CAFÉ</a></li>
+                        <li class="hover:text-emerald-800"><a class="block py-10" href="#">NOVEDADES</a>
+                        </li>
+                        <li class="hover:text-emerald-800"><a class="block py-10" href="#">REWARDS</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <nav class="">
+                <ul class="tracking-normal font-bold flex space-x-5 items-center">
+                    <div class="flex space-x-1 hover:scale-110 ease-in-out duration-300"><a
+                            class="hover:text-emerald-800" href="#">
+                            <img class="object-cover w-5 " src="/assets/marcador-de-posicion.png" alt="">
+                            <li class="font-medium text-sm">Buscar una tienda
+                        </a></li>
+                    </div>
+                    <li
+                        class="text-sm text-white  border rounded-full pt-1 pb-2 px-5 bg-black items-center hover:bg-emerald-800 hover:scale-110 ease-in-out duration-300">
+                        <a href="#">Regístrese
+                            ahora</a>
+                    </li>
+                    <li
+                        class="text-sm  border rounded-full pt-1 pb-2 px-5  items-center hover:bg-gray-200/80 hover:scale-110 ease-in-out duration-300">
+                        <a href="#">Iniciar
+                            sesión</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
     </header>
+    <main class="py-8 mx-56">
+        <section class=" grid grid-cols-5 bg-emerald-800 text-white rounded-lg mb-15">
+            <div class=" items-center p-7 py-30 pb-0 col-span-2">
+                <h1 class="text-4xl/12 font-bold">FIESTAS VESTIDAS <br> DE ROJO </h1>
+
+                <div class="py-7  text-black text-xl items-center font-medium">
+                    <a class="px-5 py-2 border rounded-full bg-white tracking-tighter" href="">Buscar una tienda</a>
+                </div>
+            </div>
+
+
+            <img class="col-span-3 rounded-r-lg object-cover" src="/assets/banner_red_velvet_col.jpg.webp" alt="">
+        </section>
+
+        <section class=" grid grid-cols-5 bg-emerald-800 text-white rounded-lg">
+            <div class=" items-center p-7 py-30 pb-0 col-span-2">
+                <h1 class="text-4xl/12 font-bold">FIESTAS VESTIDAS <br> DE ROJO </h1>
+
+                <div class="py-7  text-black text-xl items-center font-medium">
+                    <a class="px-5 py-2 border rounded-full bg-white tracking-tighter" href="">Buscar una tienda</a>
+                </div>
+            </div>
+
+
+            <img class="col-span-3  object-cover overflow-hidden" src="/assets/banner_red_velvet_col.jpg.webp" alt="">
+        </section>
+    </main>
 </body>
 
 </html>
